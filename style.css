@@ -34,9 +34,9 @@ body {
   }
 
   ul#galeria li {
-    display: inline-block;
-    vertical-align: top;
-    width: 33%;
+    margin-left: 40px;
+    margin-right: 40px;
+    
   }
 
   ul#galeria img {
