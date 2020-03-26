@@ -20,13 +20,13 @@ body {
   }
 
   header, footer {
-    background: lightpink;
+    background: lightskyblue;
     position: relative;
     text-align: center;
   }
 
-  header, header:before, header:after { border-bottom: 1px solid hotpink}
-  footer, footer:before, footer:after { border-top: 1px solid hotpink}
+  header, header:before, header:after { border-bottom: 1px solid dodgerblue;}
+  footer, footer:before, footer:after { border-top: 1px solid dodgerblue;}
 
   ul#galeria {
     list-style: none;
@@ -59,8 +59,8 @@ body {
   
   }
 
-  ul#galeria a {
-    color: deeppink;
+  a {
+    color: royalblue;
     text-decoration: underline;
     font-weight: bold;
   }
