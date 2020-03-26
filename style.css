@@ -1,8 +1,13 @@
 body {
-    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #303030;
+    margin: 0 auto;
+    max-width: 800 px;
+    
   }
   
-  h1 {
+  h1,h2,h3 {
     color: green;
     text-align: center;
   }
@@ -11,3 +16,35 @@ body {
     font-family: Arial;
     font-size: 20px;
   }
+
+  header, footer {
+    background: lightpink;
+    position: relative;
+    text-align: center;
+  }
+
+  header, header:before, header:after { border-bottom: 1px solid hotpink}
+  footer, footer:before, footer:after { border-top: 1px solid hotpink}
+
+  ul#galeria {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul#galeria li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+  }
+
+  ul#galeria img {
+    width: 100%;
+    height: auto;
+  }
+
+  ul#galeria a {
+    color: deeppink;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
