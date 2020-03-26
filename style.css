@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Baloo 2', Arial, sans-serif;
     font-size: 14px;
     color: #303030;
     margin: 0 auto;
@@ -41,6 +42,21 @@ body {
   ul#galeria img {
     width: 100%;
     height: auto;
+  }
+
+  @media screen and (min-width: 700px) {
+    ul#galeria li {
+      margin: 0;
+      display: inline-block;
+      vertical-align: top;
+      width: 33%;
+    }
+  
+    ul#galeria img {
+      width: 100%;
+      height: auto;
+    }
+  
   }
 
   ul#galeria a {
